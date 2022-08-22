@@ -7,6 +7,9 @@ body{
   background-repeat: no-repeat;
 }
 
+h1 span{
+  color: orange;
+}
 h1{
   font-size: 50px;
 }
@@ -15,5 +18,58 @@ h1{
   float: left;
   margin-left: 5%;
   padding-left: 2%;
+}
+
+.half-width img{
+  margin-bottom: 200px;
+
+}
+
+.anchor-button{
+  text-decoration: none;
+  background: linear-gradient(45deg, lightsalmon, tomato);
+  padding: 10px 40px;
+  border-radius: 5px;
+  color: white;
+  font-weight: 700;
+}
+
+/*--------Dream-area-----------*/
+
+.dream-area {
+  background-image: url(images/dream-bg.png);
+  background-repeat: no-repeat;
+  background-position: right;
+}
+
+h2 {
+  font-size: 40px;
+}
+
+h3 {
+  display: block;
+  font-size: 1.17em;
+  margin-block-start: 1em;
+  margin-block-end: 1em;
+  margin-inline-start: 0px;
+  margin-inline-end: 0px;
+  font-weight: bold;
+}
+
+p {
+  display: block;
+  margin-block-start: 1em;
+  margin-block-end: 1em;
+  margin-inline-start: 0px;
+  margin-inline-end: 0px;
+}
+
+.anchor-button {
+  text-decoration: none;
+  background: linear-gradient(45deg, lightsalmon, tomato);
+  padding: 10px 40px;
+  border-radius: 5px;
+  color: white;
+  font-weight: 700;
 }
     

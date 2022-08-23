@@ -1,18 +1,22 @@
-body{
-  font-family: 'Poppins', sans-serif;
+@import url('https://fonts.googleapis.com/css2?family=Crete+Round&family=Poppins:wght@700&display=swap');
+
+body {
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
 }
 
-.top-banner{
-  background-image: url(images/top-banner.png);
-  background-repeat: no-repeat;
-}
-
-h1 span{
-  color: orange;
-}
 h1{
   font-size: 50px;
 }
+
+.orange-color{
+  color: orange;
+}
+
+section{
+  display: flex;
+}
+
 .half-width{
   width: 40%;
   float: left;
@@ -21,7 +25,8 @@ h1{
 }
 
 .half-width img{
-  margin-bottom: 200px;
+  width: 100%;
+  margin-top: 2px;
 
 }
 
@@ -33,6 +38,13 @@ h1{
   color: white;
   font-weight: 700;
 }
+
+.top-banner{
+  background-image: url(images/top-banner.png);
+}
+
+
+
 
 /*--------Dream-area-----------*/
 

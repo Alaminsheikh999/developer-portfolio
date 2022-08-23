@@ -8,30 +8,31 @@ body {
 h1{
   font-size: 50px;
 }
+h2{
+  font-size: 40px;
+}
 
 .orange-color{
   color: orange;
 }
 
-section{
+.flexible-container{
   display: flex;
-  margin-bottom: 250;
+  margin-bottom: 150;
 }
 
 .half-width{
-  width: 40%;
+  width: 50%;
   float: left;
   margin-left: 5%;
-  padding-left: 2%;
 }
 
 .half-width img{
   width: 80%;
-  margin-top: 2px;
 
 }
 
-.anchor-button{
+.link-button{
   text-decoration: none;
   background: linear-gradient(45deg, lightsalmon, tomato);
   padding: 10px 40px;
@@ -47,99 +48,17 @@ section{
 
 /*--------Dream-area-----------*/
 
-.dream-area {
-  background-image: url(images/dream-bg.png);
-  background-repeat: no-repeat;
-  background-position: right;
-}
-
-h2 {
-  font-size: 40px;
-}
-
-h3 {
-  display: block;
-  font-size: 1.17em;
-  margin-block-start: 1em;
-  margin-block-end: 1em;
-  margin-inline-start: 0px;
-  margin-inline-end: 0px;
-  font-weight: bold;
-}
-
-p {
-  display: block;
-  margin-block-start: 1em;
-  margin-block-end: 1em;
-  margin-inline-start: 0px;
-  margin-inline-end: 0px;
-}
-
-.anchor-button {
-  text-decoration: none;
-  background: linear-gradient(45deg, lightsalmon, tomato);
-  padding: 10px 40px;
-  border-radius: 5px;
-  color: white;
-  font-weight: 700;
-}
-
-
-/*-------*/
-
-.experience-area {
+.experience-area{
   background-image: url(images/exp-bg.png);
   background-repeat: no-repeat;
   background-position: left;
 }
 
-section {
-  height: 500px;
-  padding-bottom: 150px;
+.experience-item{
+  width: 40%;
+  margin-left: 5%;
+  margin-right: 5%;
+  padding-left: 20px;
+  border-radius: 10px;
+  box-shadow: 10px 10px 40px grey;
 }
-
-section {
-  display: block;
-}
-
-#full-stack {
-  border-left: 7px solid tomato;
-}
-h2 {
-  font-size: 40px;
-}
-.experience-area h3 {
-  color: orange;
-}
-
-h2 {
-  display: block;
-  font-size: 1.5em;
-  margin-block-start: 0.83em;
-  margin-block-end: 0.83em;
-  margin-inline-start: 0px;
-  margin-inline-end: 0px;
-  font-weight: bold;
-}
-
-h3 {
-  display: block;
-  font-size: 1.17em;
-  margin-block-start: 1em;
-  margin-block-end: 1em;
-  margin-inline-start: 0px;
-  margin-inline-end: 0px;
-  font-weight: bold;
-}
-
-p {
-  color: dimgray;
-}
-p {
-  display: block;
-  margin-block-start: 1em;
-  margin-block-end: 1em;
-  margin-inline-start: 0px;
-  margin-inline-end: 0px;
-}
-    

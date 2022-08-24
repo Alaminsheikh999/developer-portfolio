@@ -42,16 +42,16 @@ h2{
 }
 
 .top-banner{
-  background-image: url('images/top-banner.png');
-  background-repeat: no-repeat;
+  background-image: url("images/top-banner.png");
+  
 }
 
 /*--------Dream-area-----------*/
 
 .experience-area{
-  background-image: url(images/exp-bg.png);
-  background-repeat: no-repeat;
-  background-position: left;
+  background-image: url("images/exp-bg.png");
+    background-repeat: no-repeat;
+    background-position: left;
 }
 
 .experience-item{

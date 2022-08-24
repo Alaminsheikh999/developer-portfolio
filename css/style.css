@@ -42,7 +42,7 @@ h2{
 }
 
 .top-banner{
-  background-image: url(images/top-banner.png);
+  background-image: url('images/top-banner.png');
   background-repeat: no-repeat;
 }
 
@@ -58,7 +58,20 @@ h2{
   width: 40%;
   margin-left: 5%;
   margin-right: 5%;
+  margin-bottom: 150px;
   padding-left: 20px;
   border-radius: 10px;
   box-shadow: 10px 10px 40px grey;
+}
+
+#Full-Stack-Web-Developer{
+  border-left: 7px solid tomato;
+}
+
+#baby-Stack-Web-Developer{
+  border-left: 7px solid blue;
+}
+
+footer p{
+  text-align: center;
 }
